@@ -1004,6 +1004,11 @@ public class PokkitPlayer extends PokkitHumanEntity implements Player {
 	}
 
 	@Override
+	public void sendTitle(String arg0, String arg1, int i, int j, int k) {
+		throw Pokkit.unsupported();
+	}
+
+	@Override
 	public Map<String, Object> serialize() {
 		throw Pokkit.unsupported();
 
